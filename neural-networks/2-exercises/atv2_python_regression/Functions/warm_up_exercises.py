@@ -23,7 +23,7 @@ def warm_up_exercise2(m=5):
     @return np.ndarray
         Vetor de shape (m, 1) com todos os valores iguais a 1.
     """
-    return 
+    return np.ones((m,1))
 
 def warm_up_exercise3(x):
     """
