@@ -12,6 +12,9 @@ def plot_data(x, y):
     @param x np.ndarray Independent variable (population)
     @param y np.ndarray Dependent variable (profit)
     """
+    if x.shape[0] != y.shape[0]:
+        raise ValueError("x e y precisam conter o mesmo valor de elementos")
+    
     plt.figure()
     plt.plot(x, y, 'rx', markersize=5)
     plt.xlabel('Population of City in 10,000s')
