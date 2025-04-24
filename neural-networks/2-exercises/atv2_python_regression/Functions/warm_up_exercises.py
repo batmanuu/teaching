@@ -75,7 +75,7 @@ def warm_up_exercise5(predictions, y):
     """
     # Calcula o vetor de erros quadráticos (squared errors) entre as predições e os valores reais
     # O vetor de erros quadráticos é calculado como a diferença entre as predições e os valores reais
-    return 
+    return (predictions - y) ** 2
 
 def warm_up_exercise6(errors):
     """
