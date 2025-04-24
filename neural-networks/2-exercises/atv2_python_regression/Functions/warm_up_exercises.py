@@ -112,6 +112,6 @@ def warm_up_exercise7(X, y, theta):
     # 2. Calcule os erros quadráticos usando a função warm_up_exercise5
     # 3. Calcule o custo médio usando a função warm_up_exercise6
     # 4. Retorne o custo médio
-    predictions = 
-    errors = 
-    return 
+    predictions = warm_up_exercise4(X, theta)
+    errors = warm_up_exercise5(predictions, y)
+    return warm_up_exercise6(errors)
