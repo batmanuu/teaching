@@ -89,7 +89,7 @@ def warm_up_exercise6(errors):
     """
     # O custo médio é calculado como a média dos erros quadráticos
     # Obtenha usando np.mean e não esqueça de dividir por 2
-    return 
+    return np.mean(errors) / 2
 
 def warm_up_exercise7(X, y, theta):
     """
