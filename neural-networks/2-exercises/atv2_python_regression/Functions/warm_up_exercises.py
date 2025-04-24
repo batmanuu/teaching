@@ -58,7 +58,7 @@ def warm_up_exercise4(X, theta):
         Vetor de predições (m,)
     """
     # retorna o resultado da multiplicação matricial entre X e θ
-    return 
+    return X @ theta
 
 def warm_up_exercise5(predictions, y):
     """
