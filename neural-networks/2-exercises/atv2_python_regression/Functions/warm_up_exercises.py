@@ -11,7 +11,7 @@ def warm_up_exercise1():
 
     @return np.ndarray Identity matrix (5x5)
     """
-    return 
+    return np.eye(5)
 
 def warm_up_exercise2(m=5):
     """
